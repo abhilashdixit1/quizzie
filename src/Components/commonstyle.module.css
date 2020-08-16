@@ -1,0 +1,212 @@
+.alignLeft{
+    float: left;
+    margin-top: 1.5vh;
+    color: white;
+    font-size: 30px;
+}
+
+.alignRight{
+    float: right;
+    font-size: 3vh;
+    margin-top: 2.5vh;
+    color: white;
+}
+
+.head{
+    height:10vh;
+    background-color:red;
+}
+
+.quesTitle{
+    font-size: large;
+    Color:red;
+    margin:10vh
+}
+
+.question{
+    color:rgb(105, 104, 23);
+    font-size: 30px;
+    padding:4vh;
+}
+
+.optionGroup{
+    display: flex;
+    flex-direction: column;
+}
+
+.option{
+    border: none;
+    background-color: white;
+    width: 40%;
+    align-self: center;
+    height: 5vh;
+    border-radius: 10px;
+    margin-top: 3vh;
+    cursor: pointer;
+}
+
+
+
+.navButton{
+
+    border: none;
+    background-color: white;
+    font-weight:bolder;
+    color: red;
+    outline: none;
+    cursor: pointer;
+    font-size:50px
+
+
+}
+
+.questionBoard{
+    display:flex;
+}
+
+.arrow{
+    width:10vw;
+}
+
+.result{
+
+    font-size:20px;
+    color:red;
+    margin-top: 5vh;
+
+}
+
+.content{
+    font-size: 70px;
+    color: white;
+    margin-top: 20px;
+}
+.thanks{
+    margin-top:3vh;
+    color:black
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .childPass{
+    background-color:green;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 20vh;
+  }
+
+  .childFail{
+    background-color: red;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 20vh;
+  }
+
+  .score{
+    color: white;
+    font-size: 30px;
+    margin-top: 30px;
+  }
+
+  .correct{
+    color: green;
+    margin-top: 10px;
+    font-size: larger;
+    font-weight: bolder;
+  }
+
+  .incorrect{
+    color: rgb(245, 11, 11);
+    margin-top: 10px;
+    font-size: larger;
+    font-weight: bolder;
+  }
+
+  .success{
+      color:green
+  }
+
+  .fail{
+      color:red
+  }
+
+  .quiz{
+      display:flex;
+      flex-direction: row;
+      justify-content: center;
+      margin-top:25vh;
+  }
+
+  .letter{
+    font-size: 70px;
+    padding-top: 50px;
+
+  }
+
+  .letterI{
+      display:flex;
+      flex-direction: column;
+      font-size: 70px;
+  }
+
+
+  .heart {
+    padding-top: 10px;
+    height: 39px;
+	font-size: 40px;
+	color: #e00;
+	animation: beat .25s infinite alternate;
+	transform-origin: center;
+}
+
+/* Heart beat animation */
+@keyframes beat{
+	to { transform: scale(1.4); }
+}
+
+.start{
+    border:none;
+    background-color: rgb(78, 11, 22);
+    padding:2em;
+    color:white;
+    
+}
+
+
+
+
+@media only screen and (max-width: 799px) {
+    .quesCard{
+        background-color:rgb(252, 168, 168);
+        width:100vw;
+        height:50vh;
+        border-radius: 10px;
+    }
+
+    .question{
+        color:rgb(105, 104, 23);
+        font-size: 20px;
+        padding:2vh;
+    }
+
+}
+@media only screen and (min-width: 800px) {
+    .quesCard{
+        background-color:rgb(252, 168, 168);
+        width:60vw;
+        height:50vh;
+        margin-left: 20vw;
+        border-radius: 10px;
+    }
+    .option:hover{
+
+        background-color: rgb(243, 130, 130);
+    
+    }
+  }
+

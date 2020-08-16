@@ -1,0 +1,50 @@
+{
+    "test":[
+        {
+            "questionId":1,
+            "text": "What is capital of India?",
+            "option1": "Chandigarh",
+            "option2":"New Delhi",
+            "option3": "Gujrat",
+            "option4":"Port Blair",
+            "right":"New Delhi"
+        },
+        {
+            "questionId":2,
+            "text": "What is capital of Karnataka?",
+            "option1": "Bangalore",
+            "option2":"Ballari",
+            "option3": "Belgaum",
+            "option4":"Mysore",
+            "right":"Bangalore"
+        },
+        {
+            "questionId":3,
+            "text": "What is capital of Uttar Pradesh?",
+            "option1": "Kanpur",
+            "option2":"New Delhi",
+            "option3": "Lucknow",
+            "option4":"Banaras",
+            "right":"Lucknow"
+        },
+        {
+            "questionId":4,
+            "text": "What is capital of Tamilnadu?",
+            "option1": "Chennai",
+            "option2":"Madurai",
+            "option3": "Coimbatore",
+            "option4":"Ooty",
+            "right":"Chennai"
+        },
+        {
+            "questionId":5,
+            "text": "What is capital of Gujrat?",
+            "option1": "Ahmedabad",
+            "option2":"Gandhinagar",
+            "option3": "Baroda",
+            "option4":"Nagpur",
+            "right":"Gandhinagar"
+        }
+    ]
+
+}
